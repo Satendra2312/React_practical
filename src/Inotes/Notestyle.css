@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* header */
+.navbar {
+    display: flex;
+    border: 1px solid white;
+    /*  width: 100%; */
+    align-items: center;
+    background:grey;
+   /*  box-shadow: 3px 3px 3px #cbced1; */
+   /*  backdrop-filter: blur(30px); */
+}
+
+.nav-logo {
+    flex-grow: 1;
+}
+
+.nav-cont {
+    flex-grow: 4;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    color: red;
+    justify-content: space-evenly;
+
+}
+
+
+/* notes css */
+.main_container {
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 60%;
+    height: 110px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    box-shadow: 8px 8px 8px #cbced1;
+    backdrop-filter: blur(15px);
+}
+
+
+
+.item_date {
+    flex-grow: 0.5;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(26, 19, 19);
+    color: white;
+    margin: 5px 5px;
+}
+
+.item_date p {
+    display: flex;
+    flex-direction: column;
+}
+
+.item_title {
+    flex-grow: 1;
+    border-right: 1px solid blue;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.item_discription {
+    flex-grow: 2;
+    overflow: hidden;
+}
+
+/* Input box */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 26px auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    color: white;
+    box-shadow: 2px 3px 11px  white;
+}
+
+.input-container input {
+    width: 80%;
+    background:black;
+    backdrop-filter: blur(15px);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 5px auto;
+    font-size: 15px;
+    line-height: 35px;
+    padding:0px 10px;
+}
+.label-input{
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: cyan;
+}
+
+.input-container textarea {
+    width: 80%;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 5px auto;
+    font-size: 15px;
+    padding:0px 10px;
+}
+.input-container button{
+    width: 50%;
+    background-color: aqua;
+    line-height: 30px;
+    margin:15px auto ;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+.input-container h2{
+    color: cyan;
+}
